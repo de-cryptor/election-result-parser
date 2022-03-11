@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "backendfolks"
+name = "election-result-parser"
 version = "0.1.0"
-description = "Backend Folks | Guide for Python Backend Engineer"
+description = "Election Result Parser"
 authors = ["Jatin Goel <jatin.iiita@gmail.com>"]
 readme = "README.md"
 

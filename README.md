@@ -10,9 +10,18 @@ Python script to check live seat wise election results from Election Commission 
 ### Installation
 
 [Using Poetry](https://python-poetry.org/docs/basic-usage/),
-create a virtual environment and install required dependencies.
+create a virtual environment -.
 ```bash
 poetry shell
+```
+
+Activate Virtual Environment if not activated -
+```bash
+source $(dirname $(poetry run which python3))/activate
+```
+
+Install Package dependencies -
+```bash
 poetry install
 ```
 
@@ -20,3 +29,6 @@ poetry install
 ```bash
 python3 election.py
 ```
+
+### Sample Result
+![Screenshot](screenshot.png)
